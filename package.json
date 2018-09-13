@@ -5,6 +5,6 @@
   "repository": "https://github.com/uepon24/intersection-observer-test.git",
   "license": "MIT",
   "scripts": {
-    "start": "cp index.html script.js style.css dist"
+    "start": "cp index.html script.js style.css dist && cp -r img dist"
   }
 }
