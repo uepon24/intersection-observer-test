@@ -1,0 +1,10 @@
+{
+  "name": "intersection-observer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/uepon24/intersection-observer-test.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "cp index.html script.js style.css dist"
+  }
+}
