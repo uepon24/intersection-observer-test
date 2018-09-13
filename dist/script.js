@@ -55,6 +55,7 @@ loadPolyfills();
       img.onload = function () {
         // data-src属性を削除
         this.removeAttribute(img_path);
+        this.className = 'is-show';
       };
     }
   };
