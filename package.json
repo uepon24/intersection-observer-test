@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn run copy && yarn run server",
+    "build": "yarn run copy",
     "copy": "cp index.html intersection-observer.js script.js style.css dist && cp -r img dist",
     "server": "browser-sync start --server --files='dist/index.html'"
   },
