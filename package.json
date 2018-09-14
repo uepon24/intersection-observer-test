@@ -5,6 +5,11 @@
   "repository": "https://github.com/uepon24/intersection-observer-test.git",
   "license": "MIT",
   "scripts": {
-    "start": "cp index.html intersection-observer.js script.js style.css dist && cp -r img dist"
+    "start": "yarn run copy && yarn run server",
+    "copy": "cp index.html intersection-observer.js script.js style.css dist && cp -r img dist",
+    "server": "browser-sync start --server --files='dist/index.html'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
   }
 }
